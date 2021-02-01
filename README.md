@@ -1,6 +1,6 @@
-# Quessly Web Interface: sentinel
+# Quessly web interface: sentinel
 
-The web application implementation for **Quessly**.
+The web application implementation of **Quessly**.
 
 Lead maintainer: [Buğra Ekuklu](ekuklu@icloud.com)
 
