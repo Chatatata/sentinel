@@ -1,0 +1,26 @@
+name: deploy
+on:
+  - push
+  - pull_request
+  - workflow_dispatch
+
+jobs:
+  deploy-to-gh-pages:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: Freeze Yarn lockfile
+        run: yarn --frozen-lockfile
+      - name: Create a production build
+        run: yarn build
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          ACCESS_TOKEN: ${{ secrets.GH_PAGES_ACCESS_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: build
+          CLEAN: false
