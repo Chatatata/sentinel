@@ -24,3 +24,5 @@ jobs:
           BRANCH: gh-pages
           FOLDER: build
           CLEAN: false
+        env:
+          PUBLIC_URL: thenopebox.com/sentinel
