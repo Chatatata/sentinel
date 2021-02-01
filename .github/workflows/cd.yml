@@ -18,7 +18,7 @@ jobs:
       - name: Create a production build
         run: yarn build
         env:
-          PUBLIC_URL: thenopebox.com/sentinel
+          PUBLIC_URL: /sentinel
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
