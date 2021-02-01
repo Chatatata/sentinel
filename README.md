@@ -4,6 +4,9 @@ The web application implementation for **Quessly**.
 
 Lead maintainer: [Buğra Ekuklu](ekuklu@icloud.com)
 
+![CI status](https://github.com/Chatatata/sentinel/workflows/build/badge.svg)
+![CD status](https://github.com/Chatatata/sentinel/workflows/deploy/badge.svg)
+
 ## Up and running
 
 Clone the repository.

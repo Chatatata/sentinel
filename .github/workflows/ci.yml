@@ -1,4 +1,4 @@
-name: deploy
+name: build
 on:
   - push
   - pull_request
@@ -17,12 +17,3 @@ jobs:
         run: yarn --frozen-lockfile
       - name: Create a production build
         run: yarn build
-        env:
-          PUBLIC_URL: /
-      - name: Deploy to GitHub Pages
-        uses: JamesIves/github-pages-deploy-action@3.7.1
-        with:
-          ACCESS_TOKEN: ${{ secrets.GH_PAGES_ACCESS_TOKEN }}
-          BRANCH: gh-pages
-          FOLDER: build
-          CLEAN: false
