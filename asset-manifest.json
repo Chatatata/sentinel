@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.js": "/sentinel/static/js/main.8c1d80e6.chunk.js",
-    "runtime-main.js": "/sentinel/static/js/runtime-main.643b57d7.js",
-    "static/css/2.e6924ae7.chunk.css": "/sentinel/static/css/2.e6924ae7.chunk.css",
-    "static/js/2.2de71e67.chunk.js": "/sentinel/static/js/2.2de71e67.chunk.js",
-    "static/js/3.a680d170.chunk.js": "/sentinel/static/js/3.a680d170.chunk.js",
-    "static/js/4.afd199ba.chunk.js": "/sentinel/static/js/4.afd199ba.chunk.js",
-    "static/js/5.6698907e.chunk.js": "/sentinel/static/js/5.6698907e.chunk.js",
+    "main.js": "/sentinel/static/js/main.27fc3adc.chunk.js",
+    "runtime-main.js": "/sentinel/static/js/runtime-main.e8c549ec.js",
+    "static/css/2.4a4512c8.chunk.css": "/sentinel/static/css/2.4a4512c8.chunk.css",
+    "static/js/2.5eda144a.chunk.js": "/sentinel/static/js/2.5eda144a.chunk.js",
+    "static/js/3.d136102a.chunk.js": "/sentinel/static/js/3.d136102a.chunk.js",
+    "static/js/4.b95914da.chunk.js": "/sentinel/static/js/4.b95914da.chunk.js",
+    "static/js/5.da6fa675.chunk.js": "/sentinel/static/js/5.da6fa675.chunk.js",
+    "static/js/6.a1c9703e.chunk.js": "/sentinel/static/js/6.a1c9703e.chunk.js",
     "index.html": "/sentinel/index.html",
-    "static/js/2.2de71e67.chunk.js.LICENSE.txt": "/sentinel/static/js/2.2de71e67.chunk.js.LICENSE.txt"
+    "static/js/2.5eda144a.chunk.js.LICENSE.txt": "/sentinel/static/js/2.5eda144a.chunk.js.LICENSE.txt",
+    "static/js/3.d136102a.chunk.js.LICENSE.txt": "/sentinel/static/js/3.d136102a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.643b57d7.js",
-    "static/css/2.e6924ae7.chunk.css",
-    "static/js/2.2de71e67.chunk.js",
-    "static/js/main.8c1d80e6.chunk.js"
+    "static/js/runtime-main.e8c549ec.js",
+    "static/css/2.4a4512c8.chunk.css",
+    "static/js/2.5eda144a.chunk.js",
+    "static/js/main.27fc3adc.chunk.js"
   ]
 }
