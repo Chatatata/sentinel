@@ -15,6 +15,9 @@ import { Provider } from 'react-redux';
 // Use consistent styling
 import 'sanitize.css/sanitize.css';
 
+// Use Bootstrap Framework
+import 'bootstrap/dist/css/bootstrap.css';
+
 // Import root app
 import { App } from 'app';
 
@@ -23,6 +26,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import { configureAppStore } from 'store/configureStore';
 
 import reportWebVitals from 'reportWebVitals';
+import configureFontAwesome from 'configureFontAwesome';
 
 // Initialize languages
 import './locales/i18n';
@@ -52,3 +56,6 @@ if (module.hot) {
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
+// Configure Font Awesome library
+configureFontAwesome();
