@@ -13,14 +13,20 @@ import { useTranslation } from 'react-i18next';
 
 import { GlobalStyle } from 'styles/global-styles';
 
-import { HomePage } from './pages/HomePage/Loadable';
 import { SignInPage } from './pages/SignInPage/Loadable';
 import { NotFoundPage } from './components/NotFoundPage/Loadable';
 
 export function App() {
   const { i18n } = useTranslation();
+
+  let basename = '/';
+
+  if (process.env.NODE_ENV === 'production') {
+    basename = '/sentinel';
+  }
+
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <Helmet
         titleTemplate="%s - React Boilerplate"
         defaultTitle="React Boilerplate"
@@ -30,7 +36,7 @@ export function App() {
       </Helmet>
 
       <Switch>
-        <Route exact path="/" component={HomePage} />
+        <Route exact path="/" component={SignInPage} />
         <Route exact path="/sign-in" component={SignInPage} />
         <Route component={NotFoundPage} />
       </Switch>
